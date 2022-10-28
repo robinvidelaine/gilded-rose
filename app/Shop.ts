@@ -1,11 +1,4 @@
 
-import { 
-    updateQualityForAgedBrie, 
-    updateQualityForConcert, 
-    updateQualityForSulfuras, 
-    updateQualityForConjured, 
-    updateQualityForNormalItem} from './updateQuality'
-
 export class GildedRose {
     items: Array<Item>;
 

@@ -10,10 +10,18 @@ abstract class Item {
         this.sellIn = sellIn;
     }
 
+    getSellIn(){
+        return this.sellIn;
+    }
 
-
-
+    getName(){
+        return this.name;
+    }
     
+    getQuality(){
+        return this.quality;
+    }
+
     abstract updateQuality() : void
 
     updateSellIn() : void {

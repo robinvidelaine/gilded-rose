@@ -1,4 +1,3 @@
-import { Item } from './item'
 
 const MAXIMUM_QUALITY = 50
 const MINIMUM_QUALITY = 0
